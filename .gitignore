@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.key
+
+# Training checkpoints and large model artifacts
+results/
+results_*/
+checkpoint-*/
+external_materials/model_weights/*
+!external_materials/model_weights/.gitkeep
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

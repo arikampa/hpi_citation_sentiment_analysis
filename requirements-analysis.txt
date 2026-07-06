@@ -1,0 +1,11 @@
+# Versions used for the successful end-to-end validation of notebook 11.
+pandas==2.2.3
+numpy==2.3.5
+scipy==1.17.0
+statsmodels==0.14.6
+scikit-learn==1.8.0
+matplotlib==3.10.8
+seaborn==0.13.2
+jupyterlab==4.5.3
+nbclient==0.10.4
+nbformat==5.10.4
