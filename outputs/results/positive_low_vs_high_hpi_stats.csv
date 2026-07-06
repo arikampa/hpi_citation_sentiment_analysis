@@ -1,0 +1,7 @@
+﻿model,low_correct_positive,low_wrong_positive,high_correct_positive,high_wrong_positive,low_total_positive,high_total_positive,low_positive_recall,high_positive_recall,recall_difference_high_minus_low,chi2,chi2_p,dof,min_expected_count,fisher_odds_ratio,fisher_p,odds_ratio_correct_low_vs_high,recommended_test,chi2_p_bh,chi2_significant_bh,fisher_p_bh,fisher_significant_bh
+BART,723,11,90,6,734,96,0.985014,0.9375,-0.047514,9.553054,0.001996,1,1.966265,4.381818,0.008789,4.381818,Fisher,0.002395,True,0.010547,True
+T5,715,19,89,7,734,96,0.974114,0.927083,-0.047031,6.188514,0.012858,1,3.007229,2.959787,0.02293,2.959787,Fisher,0.012858,True,0.02293,True
+SciBERT,716,18,88,8,734,96,0.975477,0.916667,-0.05881,9.676558,0.001866,1,3.007229,3.616162,0.006382,3.616162,Fisher,0.002395,True,0.009573,True
+RoBERTa,716,18,86,10,734,96,0.975477,0.895833,-0.079644,16.52014,4.8e-05,1,3.238554,4.625323,0.000601,4.625323,Fisher,0.000144,True,0.001659,True
+DeepSeek,715,19,86,10,734,96,0.974114,0.895833,-0.078281,15.428681,8.6e-05,1,3.354217,4.375765,0.000829,4.375765,Fisher,0.000171,True,0.001659,True
+LLaMA3,703,31,82,14,734,96,0.957766,0.854167,-0.103599,17.769465,2.5e-05,1,5.204819,3.871755,0.000242,3.871755,Chi-square,0.000144,True,0.001452,True

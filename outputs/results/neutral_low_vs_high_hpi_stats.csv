@@ -1,0 +1,7 @@
+﻿model,low_correct_neutral,low_wrong_neutral,high_correct_neutral,high_wrong_neutral,low_total_neutral,high_total_neutral,low_neutral_recall,high_neutral_recall,recall_difference_high_minus_low,chi2,chi2_p,dof,min_expected_count,fisher_odds_ratio,fisher_p,odds_ratio_correct_low_vs_high,recommended_test,chi2_p_bh,chi2_significant_bh,fisher_p_bh,fisher_significant_bh
+BART,404,15,270,23,419,293,0.9642,0.921502,-0.042699,6.222271,0.012615,1,15.63764,2.294321,0.016877,2.294321,Chi-square,0.037846,True,0.050632,False
+T5,406,13,273,20,419,293,0.968974,0.931741,-0.037233,5.408005,0.020045,1,13.580056,2.287968,0.028401,2.287968,Chi-square,0.040089,True,0.056803,False
+SciBERT,401,18,272,21,419,293,0.957041,0.928328,-0.028713,2.745598,0.097523,1,16.049157,1.719975,0.130999,1.719975,Chi-square,0.146284,False,0.196499,False
+RoBERTa,398,21,260,33,419,293,0.949881,0.887372,-0.062509,9.612189,0.001933,1,22.22191,2.405495,0.002389,2.405495,Chi-square,0.011597,True,0.014331,True
+DeepSeek,384,35,263,30,419,293,0.916468,0.897611,-0.018857,0.739065,0.389961,1,26.748596,1.251494,0.428372,1.251494,Chi-square,0.389961,False,0.428372,False
+LLaMA3,413,6,284,9,419,293,0.98568,0.969283,-0.016397,2.247822,0.133803,1,6.172753,2.181338,0.184012,2.181338,Chi-square,0.160563,False,0.220815,False

@@ -1,0 +1,7 @@
+model,content/domain,evaluative,negation,number,punctuation,stopword
+BART,232,21,15,75,131,31
+DeepSeek,197,16,32,21,175,49
+LLaMA3,203,26,47,40,124,72
+RoBERTa,158,12,0,143,132,47
+SciBERT,183,14,33,118,126,29
+T5,247,9,5,16,160,71
