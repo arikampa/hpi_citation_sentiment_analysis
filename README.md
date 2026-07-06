@@ -1,4 +1,4 @@
-# HPI Citation Sentiment Analysis - Paper 3 Reproducibility Package
+# HPI - Citation Sentiment Analysis (CSA)
 
 This repository contains the cleaned and reorganized code and data package for the third-paper study on the reliability of large language model based citation sentiment analysis under structural and semantic pressure.
 
