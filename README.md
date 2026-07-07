@@ -21,7 +21,7 @@ The package supports two reproducibility levels:
 - Notebook outputs and execution counts were cleared.
 - Emoji characters, private absolute paths, and embedded credentials were removed from code and documentation.
 - Training notebooks used prior to the HPI analysis workflow.
-- Conclusion/summary notebooks that update Master_res.csv.
+- Conclusion/summary notebooks that update Master_results.csv.
 - Extraction of static language features.
 - The optimized FAST SHAP notebook required to calculate the position-distance capability used by the HPI model.
 - HPI/logistic regression analysis code.
