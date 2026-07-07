@@ -96,6 +96,29 @@ pip install -r requirements.txt
 
 Open Jupyter from the repository root. The notebooks also resolve the correct root when opened from `notebooks/`.
 
+## Important workflow note
+
+The training notebooks come first because they produce the trained models/tokenizers used by the inference and SHAP notebooks. The actual model weights are not included in this repository and must be placed under `external_materials/model_weights/`.
+
+Core order:
+
+``text
+01_train_encoder_transformer_models.ipynb
+02_train_bart_classification_model.ipynb
+03_train_t5_seq2seq_model.ipynb
+04_train_llama3_model.ipynb
+05_train_deepseek_model.ipynb
+06_generate_master_results_t5_bart.ipynb
+07_update_master_results_encoder_models.ipynb
+08_update_master_results_decoder_cnn_models.ipynb
+09_extract_static_language_features.ipynb
+10_shap_analysis_positional_feature_fast.ipynb
+11_hpi_logistic_regression_and_global_hpi.ipynb
+12_loss_curves.ipynb
+```
+
+The HPI notebook 11, requires the SHAP positional-distance features. Therefore, the optimized FAST SHAP notebook must run before the HPI/logistic-regression notebook, unless `Final_Master_results_with_features.csv` already contains all required `*_shap_pos_abs_dist` columns.
+
 ## Recommended starting point
 
 To reproduce the HPI and statistical analyses without retraining the models, run:
