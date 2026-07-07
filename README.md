@@ -6,7 +6,7 @@
 
 **Manuscript:** [preprint version](https://www.researchsquare.com/article/rs-9462261/v1)
 
-This repository contains the cleaned and reorganized code and data package for the third-paper study on the reliability of large language model based citation sentiment analysis under structural and semantic pressure.
+This repository contains the cleaned and reorganized code and data package for the study on the reliability of large language model based citation sentiment analysis under structural and semantic pressure.
 
 The package supports two reproducibility levels:
 
