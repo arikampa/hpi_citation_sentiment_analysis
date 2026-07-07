@@ -77,25 +77,6 @@ The following files are intentionally excluded from the public GitHub package:
 └── requirements-analysis.txt
 ```
 
-## Setup
-
-For HPI/statistical analysis only:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements-analysis.txt
-jupyter lab
-```
-
-For the complete training and SHAP workflow:
-
-```bash
-pip install -r requirements.txt
-```
-
-Open Jupyter from the repository root. The notebooks also resolve the correct root when opened from `notebooks/`.
-
 ## Important workflow note
 
 The training notebooks come first because they produce the trained models/tokenizers used by the inference and SHAP notebooks. The actual model weights are not included in this repository and must be placed under `external_materials/model_weights/`.
@@ -118,6 +99,25 @@ Core order:
 ```
 
 The HPI notebook 11, requires the SHAP positional-distance features. Therefore, the optimized FAST SHAP notebook must run before the HPI/logistic-regression notebook, unless `Final_Master_results_with_features.csv` already contains all required `*_shap_pos_abs_dist` columns.
+
+## Setup
+
+For HPI/statistical analysis only:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -r requirements-analysis.txt
+jupyter lab
+```
+
+For the complete training and SHAP workflow:
+
+```bash
+pip install -r requirements.txt
+```
+
+Open Jupyter from the repository root. The notebooks also resolve the correct root when opened from `notebooks/`.
 
 ## Recommended starting point
 
