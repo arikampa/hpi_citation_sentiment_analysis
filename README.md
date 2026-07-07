@@ -1,6 +1,7 @@
 # HPI - Citation Sentiment Analysis (CSA)
 
 **Authors:** Aristotelis Kampatzis, Antonis Sidiropoulos
+
 **Affiliation:** Department of Information and Electronic Engineering, International Hellenic University (IHU), Greece
 
 **Manuscript:** [preprint version](https://github.com/arikampa/hpi_citation_sentiment_analysis)
