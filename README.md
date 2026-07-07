@@ -4,7 +4,7 @@
 
 **Affiliation:** Department of Information and Electronic Engineering, International Hellenic University (IHU), Greece
 
-**Manuscript:** [preprint version](https://github.com/arikampa/hpi_citation_sentiment_analysis)
+**Manuscript:** [preprint version](https://www.researchsquare.com/article/rs-9462261/v1)
 
 This repository contains the cleaned and reorganized code and data package for the third-paper study on the reliability of large language model based citation sentiment analysis under structural and semantic pressure.
 
