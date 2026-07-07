@@ -16,13 +16,19 @@ The package supports two reproducibility levels:
 ## Key repository decisions
 
 - Every notebook from the original `notebooks/` directory is retained.
-- `11_hpi_logistic_regression_and_global_hpi.ipynb` was rebuilt from `General Logistic Regression + Specific Logistic Regression + HPI.ipynb` and converted to relative repository paths.
-- No `sample/` directory is used.
 - The complete source dataset is included as `data/external/sentences_dataset_45269.csv`.
 - The processed CSV files required by the included notebooks are present in `data/processed/`.
 - Notebook outputs and execution counts were cleared.
 - Emoji characters, private absolute paths, and embedded credentials were removed from code and documentation.
 - Dataset cell values were preserved; cleaning did not alter the research data.
+- Training notebooks used prior to the HPI analysis workflow.
+- Conclusion/summary notebooks that update Master_res.csv.
+- Extraction of static language features.
+- The optimized FAST SHAP notebook required to calculate the position-distance capability used by the HPI model.
+- HPI/logistic regression analysis code.
+- Loss curve visualization notebook.
+- Tables of statistical results obtained and used in the analysis of the Consumer Price Index (HPI).
+- Documentation describing the workflow and required external files.
 
 ## Repository structure
 
