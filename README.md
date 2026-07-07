@@ -23,7 +23,7 @@ The package supports two reproducibility levels:
 - Training notebooks used prior to the HPI analysis workflow.
 - Conclusion/summary notebooks that update Master_results.csv.
 - Extraction of static language features.
-- The optimized FAST SHAP notebook required to calculate the position-distance capability used by the HPI model.
+- The optimized FAST SHAP notebook required to calculate the position-distance capability used by the HPI framework.
 - HPI/logistic regression analysis code.
 - Loss curve visualization notebook.
 - Tables of statistical results obtained and used in the analysis of the Consumer Price Index (HPI).
