@@ -13,7 +13,7 @@ The package supports two reproducibility levels:
 1. **Analysis reproduction:** run the HPI, statistical, SHAP-token, and visualization analyses using the included processed CSV files.
 2. **Full pipeline reproduction:** retrain the models, regenerate predictions and features, compute SHAP positional distances, and then rerun the HPI analysis. Full retraining requires substantial GPU resources and externally downloaded pretrained model checkpoints.
 
-## Key repository decisions
+## What is included
 
 - Every notebook from the original `notebooks/` directory is retained.
 - The complete source dataset is included as `data/external/sentences_dataset_45269.csv`.
@@ -28,6 +28,16 @@ The package supports two reproducibility levels:
 - Loss curve visualization notebook.
 - Tables of statistical results obtained and used in the analysis of the Consumer Price Index (HPI).
 - Documentation describing the workflow and required external files.
+
+## What is intentionally excluded
+
+The following files are intentionally excluded from the public GitHub package:
+
+- Full trained model weights and tokenizers (`.pth`, `.pt`, `.bin`, `.safetensors`, `.h5`, etc.).
+- Reference PDFs and manuscript drafts.
+- Private Google Drive paths and local machine paths.
+- API keys and access tokens.
+
 
 ## Repository structure
 
