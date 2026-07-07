@@ -153,8 +153,29 @@ export WANDB_API_KEY="your_key"  # optional
 See [docs/External_Materials.md](docs/External_Materials.md).
 
 ## Dataset acknowledgement
+This study uses citation contexts derived from the Citation Sentiment Corpus created by Awais Athar.
+The corpus consists of 8,736 citation sentences manually annotated for citation sentiment and extracted from the ACL Anthology Network corpus. The original corpus and related information are publicly available at:
+https://awaisathar.com/citation-sentiment-corpus/. 
+The dataset is publicly available. Users should verify and comply with the license terms of the version they use. The version used in this project was accessed from a public source reported with an Apache-2.0 license.
+If you use this repository or the derived experiments, please also cite the original dataset paper:
 
-The source corpus combines citation and non-citation sentiment material used in the experiments. Citation contexts include data derived from the Citation Sentiment Corpus by Awais Athar. Users should cite the original dataset publication and verify the applicable terms for all third-party sources.
+```text
+@InProceedings{athar:2011:SS,
+  author    = {Athar, Awais},
+  title     = {Sentiment Analysis of Citations using Sentence Structure-Based Features},
+  booktitle = {Proceedings of the ACL 2011 Student Session},
+  month     = {June},
+  year      = {2011},
+  address   = {Portland, OR, USA},
+  publisher = {Association for Computational Linguistics},
+  pages     = {81--87},
+  url       = {http://www.aclweb.org/anthology/P11-3015}
+}
+```
+This study also used the public Hugging Face dataset `Sp1786/multiclass-sentiment-analysis-dataset` as an auxiliary multiclass sentiment dataset.
+Sp1786. (2023). `multiclass-sentiment-analysis-dataset` [Dataset]. Hugging Face. 
+https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset
+The dataset is distributed on Hugging Face with an Apache-2.0 license. Users should verify and comply with the license terms of the version they use.
 
 ## License
 
