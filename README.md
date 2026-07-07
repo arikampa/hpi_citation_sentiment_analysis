@@ -20,7 +20,6 @@ The package supports two reproducibility levels:
 - The processed CSV files required by the included notebooks are present in `data/processed/`.
 - Notebook outputs and execution counts were cleared.
 - Emoji characters, private absolute paths, and embedded credentials were removed from code and documentation.
-- Dataset cell values were preserved; cleaning did not alter the research data.
 - Training notebooks used prior to the HPI analysis workflow.
 - Conclusion/summary notebooks that update Master_res.csv.
 - Extraction of static language features.
