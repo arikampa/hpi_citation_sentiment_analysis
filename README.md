@@ -177,6 +177,8 @@ Sp1786. (2023). `multiclass-sentiment-analysis-dataset` [Dataset]. Hugging Face.
 https://huggingface.co/datasets/Sp1786/multiclass-sentiment-analysis-dataset
 The dataset is distributed on Hugging Face with an Apache-2.0 license. Users should verify and comply with the license terms of the version they use.
 
-## License
+## Third-party citation contexts
+In addition to the public citation sentiment datasets acknowledged above, some experiments may involve citation-context sentences extracted from open access third-party scholarly articles across different journals and scientific domains.
 
+## License
 The MIT License applies to the repository code. Dataset records, pretrained models, model weights, and third-party materials retain their original terms and are not relicensed by this repository.
