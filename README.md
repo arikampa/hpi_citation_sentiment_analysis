@@ -102,7 +102,7 @@ The training notebooks come first because they produce the trained models/tokeni
 
 Core order:
 
-``text
+```text
 01_train_encoder_transformer_models.ipynb
 02_train_bart_classification_model.ipynb
 03_train_t5_seq2seq_model.ipynb
