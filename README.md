@@ -26,7 +26,7 @@ The package supports two reproducibility levels:
 - The optimized FAST SHAP notebook required to calculate the position-distance capability used by the HPI framework.
 - HPI/logistic regression analysis code.
 - Loss curve visualization notebook.
-- Tables of statistical results obtained and used in the analysis of the Consumer Price Index (HPI).
+- Tables of statistical results obtained and used in the analysis of the Holistic Pressure Index (HPI).
 - Documentation describing the workflow and required external files.
 
 ## What is intentionally excluded
