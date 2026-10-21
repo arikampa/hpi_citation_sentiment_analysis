@@ -1,0 +1,9 @@
+FINAL robustness analysis: repeated 5-fold aggregated OOF GHPI.
+Repeats=20; seeds=42-61.
+For each citation and repeat, GHPI is estimated strictly out-of-fold.
+The common threshold is the P75 of GHPI scores in that repeat's training folds only.
+Per citation, repeated OOF GHPI scores and repeated OOF thresholds are aggregated by the median.
+No seed is selected based on statistical significance.
+The procedure is run on both mixed and real-only single-citation subsets.
+All three sentiment classes are tested; BH correction is applied across the six architectures within each class.
+Global_Gap aggregation=median.
