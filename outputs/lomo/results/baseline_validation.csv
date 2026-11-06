@@ -1,0 +1,3 @@
+subset,max_abs_GHPI_difference,max_abs_P75_difference,pressure_agreement,n_high
+mixed,3.9968028886505635e-15,3.552713678800501e-15,1.0,530
+real_only,3.3306690738754696e-15,3.1086244689504383e-15,1.0,282
